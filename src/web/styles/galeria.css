@@ -1,0 +1,24 @@
+.galeria {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	max-width: 1000px;
+	margin: 10px auto;
+}
+
+.galeria div {
+	flex: 0 0;
+	margin: 10px;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px 2px #AFAFAF;
+	text-align: center;
+}
+
+.galeria div img {
+	cursor: pointer;
+	border-radius: 5px 5px 0 0;
+}
+
+.galeria div p {
+	margin: 2px;
+}
